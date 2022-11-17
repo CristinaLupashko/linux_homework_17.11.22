@@ -1,0 +1,10 @@
+Thu Nov 17 21:05:05 UTC 2022
+Used
+2.3G
+   0 mkdir /home/date
+   1 touch /home/date/date.txt
+   2 date >> /home/date/date.txt
+   3 df -h | awk '{print $3}' | head -2 >> /home/date/date.txt
+   4 history | tail -5 >> /home/date/date.txt
+AuthenticX86
+33
